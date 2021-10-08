@@ -1,2 +1,2 @@
 # BlueDot.DaaS.Samples
-BlueDot Inc. sample code for clients.
+BlueDot Inc. code samples for clients.

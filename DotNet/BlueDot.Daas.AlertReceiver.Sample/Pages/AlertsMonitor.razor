@@ -1,0 +1,114 @@
+﻿@page "/"
+
+@implements IDisposable
+
+@using Azure.Messaging.ServiceBus;
+@using BlueDot.Daas.AlertReceiver.Sample.Models
+@using Newtonsoft.Json
+
+@inject BlueDot.Daas.AlertReceiver.Sample.Interfaces.IServiceBusTopicService _serviceBusSubscriber
+
+<h2>DaaS Push Notifications</h2>
+<div style="float:left; margin: auto;">
+  <p>Demo for BlueDot push notification service bus... continuously waiting for DaaS alerts... </p>
+</div>
+<div style="float:left; margin: auto;" class="loader"></div>
+
+@if (latestAlert == null)
+{
+<div style="clear: both;"><p><em>Nothing yet...</em></p></div>
+}
+else
+{
+    <marquee style="background-color:darkred; color:white;" behavior="scroll" direction="left">
+        <a href="@latestAlert.SourceUrl"
+           style="color:white;"
+           target="_blank"
+           rel="noopener noreferrer">
+            @latestAlert.NotificationType - @latestAlert.Title
+        </a>
+    </marquee>
+    <div style="font-size: 0.75rem; margin-top: 5px">Alert Details</div>
+    <div style="">@((MarkupString)alertDetailsyMarkup)</div>
+    <div style="font-size: 0.75rem; margin-top: 100px">History</div>
+    <table class="table" style="font-size: 0.75rem; border: 1px outset Darkred;  background-color: lightYellow;">
+        <thead>
+            <tr>
+                <th>Reported Date</th>
+                <th>Severity</th>
+                <th>DiseaseId</th>
+                <th>Title</th>
+                <th>LocationId</th>
+                <th>Country</th>
+                <th>IsoCode</th>
+                <th>Lat</th>
+                <th>Long</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var alert in alerts)
+            {
+            <tr>
+                <td>@alert.ReportedDate</td>
+                <td>@alert.NotificationType</td>
+                <td>@alert.DiseaseId</td>
+                <td>@alert.Title</td>
+                <td>@alert.LocationId</td>
+                <td>@alert.CountryCode</td>
+                <td>@alert.IsoCode</td>
+                <td>@alert.Latitude</td>
+                <td>@alert.Longitude</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<PushNotificationPayload> alerts = new List<PushNotificationPayload>();
+    private PushNotificationPayload latestAlert;
+    private MarkupString alertDetailsyMarkup;
+    private ServiceBusProcessor processor;
+
+    private async Task MessageHandler(ProcessMessageEventArgs args)
+    {
+        string payload = args.Message.Body.ToString();
+
+        latestAlert = JsonConvert.DeserializeObject<PushNotificationPayload>(payload);
+
+        alerts.Add(latestAlert);
+        alertDetailsyMarkup = (MarkupString)latestAlert.Details;
+
+
+        // Invoke client render
+        await InvokeAsync(() => StateHasChanged());
+
+        // complete the message. messages is deleted from the queue.
+        await args.CompleteMessageAsync(args.Message);
+    }
+
+    private async Task ErrorHandler(ProcessErrorEventArgs args)
+    {
+        alertDetailsyMarkup = (MarkupString)$"<p>{args.Exception.ToString()}</p>";
+
+        await InvokeAsync(() => StateHasChanged());
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            processor = await _serviceBusSubscriber.GetServiceBusProcessorAsync(MessageHandler, ErrorHandler);
+            await processor.StartProcessingAsync();
+        }
+    }
+
+    public void Dispose()
+    {
+        if (processor != default && !processor.IsClosed)
+        {
+            processor.StopProcessingAsync();
+            processor.DisposeAsync();
+        }
+    }
+}
