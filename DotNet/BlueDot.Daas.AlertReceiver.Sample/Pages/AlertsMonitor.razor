@@ -40,7 +40,7 @@ else
                 <th>Title</th>
                 <th>LocationId</th>
                 <th>Country</th>
-                <th>IsoCode</th>
+                <th>CountryIsoCode</th>
                 <th>Lat</th>
                 <th>Long</th>
             </tr>
@@ -54,8 +54,8 @@ else
                 <td>@alert.DiseaseId</td>
                 <td>@alert.Title</td>
                 <td>@alert.LocationId</td>
-                <td>@alert.CountryCode</td>
-                <td>@alert.IsoCode</td>
+                <td>@alert.CountryName</td>
+                <td>@alert.CountryIsoCode</td>
                 <td>@alert.Latitude</td>
                 <td>@alert.Longitude</td>
             </tr>
@@ -65,8 +65,8 @@ else
 }
 
 @code {
-    private List<PushNotificationPayload> alerts = new List<PushNotificationPayload>();
-    private PushNotificationPayload latestAlert;
+    private List<NotificationPayloadModel> alerts = new List<NotificationPayloadModel>();
+    private NotificationPayloadModel latestAlert;
     private MarkupString alertDetailsyMarkup;
     private ServiceBusProcessor processor;
 
@@ -74,7 +74,7 @@ else
     {
         string payload = args.Message.Body.ToString();
 
-        latestAlert = JsonConvert.DeserializeObject<PushNotificationPayload>(payload);
+        latestAlert = JsonConvert.DeserializeObject<NotificationPayloadModel>(payload);
 
         alerts.Add(latestAlert);
         alertDetailsyMarkup = (MarkupString)latestAlert.Details;
