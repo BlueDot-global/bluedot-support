@@ -1,5 +1,5 @@
 httplib2==0.19.1
-pip==20.3.3
+pip==21.1
 setuptools==51.0.0
 certifi==2020.12.5
 chardet==4.0.0
