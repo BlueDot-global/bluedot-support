@@ -33,10 +33,6 @@ try:
     topic_name = "{Your SERVICE_BUS_TOPIC_NAME}"
     subscription_name = "{Your SERVICE_BUS_SUBSCRIPTION_NAME}"
 
-    connstr = "Endpoint=sb://sb-bd-daas-notification-dev.servicebus.windows.net/;SharedAccessKeyName=Listen;SharedAccessKey=6Cu9wIFjAUT2g0calLFUt1S+zMWwqBSDmhlT5S0J/00=;EntityPath=sbt-alerts"
-    topic_name = "sbt-alerts"
-    subscription_name = "test-client"
-
     with ServiceBusClient.from_connection_string(connstr) as client:
         # If session_id is null here, will receive from the first available session.
         with client.get_subscription_receiver(topic_name, subscription_name) as receiver:
