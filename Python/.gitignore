@@ -1,0 +1,8 @@
+# Compiled Python bytecode
+venv
+
+# JetBrains Rider
+.idea
+
+#Visual Studio
+.vs
