@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# JetBrains Rider
+.idea
+
+#Visual Studio
+.vs
