@@ -1,6 +1,6 @@
 # BlueDot DaaS R Sample
 
-BlueDot DaaS APIs can be accessed either by providing an API Key (subscription key tied to your account). The following code snippet will work with R.
+BlueDot DaaS APIs can be accessed by providing an API Key (subscription key tied to your account). The following code snippet will work with R.
 
 ## Using API Key
 
@@ -18,7 +18,7 @@ Open R terminal (in RGui, R Studio, VS Code or any other tool of your preference
     install.packages("httr")
     install.packages("jsonlite")
 
-To execute sample code you can slightly modify it to add output of data and run all from the terminal. In this example we request data for diesase with ID = 55
+To execute sample code you can slightly modify it to add output of data and run all from the terminal. In this example we request data for disease with ID = 55
 
     res = pull_case_counts_api(55)
     res
