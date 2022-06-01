@@ -1,5 +1,15 @@
 # BlueDot Example  Template: Infectious Disease Risk by Location
 
+## Download
+
+Download the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/infectious-disease-risk-by-location.pbix).
+
+## Overview
+
+- [Functionality](#functionality)
+- [Access the template and connect to BlueDot's live intelligence](#access-the-template-and-connect-to-bluedots-live-intelligence)
+- [Reach out to BlueDot for support](#reach-out-to-bluedot-for-support)
+
 ## Functionality
 
 BlueDot’s example template for infectious disease risk by location enables users to pinpoint and understand infectious disease risks within locations of interest. With this template, users will clearly understand infectious disease risk and activity for specified locations, including total reported cases, deaths, incidence rates, and disease characteristics (severity, transmissibility, mode of transmission, and preventability). In addition, users gain greater context to key indicators with information regarding epidemic preparedness by location and relevant recent news. This template is part of a series of infectious disease intelligence example templates created by BlueDot.
