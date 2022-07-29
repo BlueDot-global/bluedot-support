@@ -2,7 +2,19 @@
 
 ## Download
 
-Download the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/New%2C%20Notable%2C%20and%20Unusual%20Activity/new-notable-unusual-activity.pbix).
+Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/NNUAv1.1.0/Example%20Templates/Power%20BI/New%2C%20Notable%2C%20and%20Unusual%20Activity/new-notable-unusual-activity-v1.1.0.pbix).
+
+## Versions
+
+##### [1.1.0](https://github.com/BlueDot-global/bluedot-support/raw/NNUAv1.1.0/Example%20Templates/Power%20BI/New%2C%20Notable%2C%20and%20Unusual%20Activity/new-notable-unusual-activity-v1.1.0.pbix)
+- Released August 2, 2022
+- Added source information and links to each update
+##### [1.0.1](https://github.com/BlueDot-global/bluedot-support/raw/NNUAv1.0.1/Example%20Templates/Power%20BI/New%2C%20Notable%2C%20and%20Unusual%20Activity/new-notable-unusual-activity.pbix)
+- Released June 17, 2022
+- Updated Data Dictionary & Methods
+##### [1.0.0](https://github.com/BlueDot-global/bluedot-support/raw/NNUAv1.0.0/Example%20Templates/Power%20BI/New%2C%20Notable%2C%20and%20Unusual%20Activity/new-notable-unusual-activity.pbix)
+- Released June 1, 2022
+- Initial release of New, Notable, and Unusual Activity template
 
 ## Overview
 
