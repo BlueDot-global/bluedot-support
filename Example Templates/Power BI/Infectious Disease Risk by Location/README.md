@@ -2,7 +2,20 @@
 
 ## Download
 
-Download the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/infectious-disease-risk-by-location.pbix).
+Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/infectious-disease-risk-by-location-v1.1.0.pbix).
+
+## Versions
+
+##### [1.1.0](https://github.com/BlueDot-global/bluedot-support/raw/IDRLv1.1.0/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/infectious-disease-risk-by-location.pbix)
+- Released June 24, 2022
+- Added new, notable, and unusual activity page
+- Updated subnational map to include case incidence and population
+- Improved disease profile information
+- Implemented bug fixes related to case counts
+
+##### [1.0.0](https://github.com/BlueDot-global/bluedot-support/raw/IDRLv1.0.0/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/infectious-disease-risk-by-location.pbix)
+- Released April 12, 2022
+- Initial release of Infectious Disease Risk by Location template
 
 ## Overview
 
