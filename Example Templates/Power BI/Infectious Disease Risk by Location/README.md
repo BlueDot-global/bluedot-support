@@ -2,9 +2,16 @@
 
 ## Download
 
-Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/infectious-disease-risk-by-location-v1.1.0.pbix).
+Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/infectious-disease-risk-by-location-v2.0.0.pbix).
 
 ## Versions
+
+##### [2.0.0](https://github.com/BlueDot-global/bluedot-support/raw/IDRLv2.0.0/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/infectious-disease-risk-by-location-v2.0.0.pbix)
+- Released August 19, 2022
+- Added references to source information for BlueDot intelligence on cases and deaths
+- Added references to source information for BlueDot intelligence on new, notable, and unusual activity updates (i.e. "Recent News")
+- Improved disease profile statements
+- Implemented bug fixes on case incidence, BEPI, hospital beds. Statements will now display if there is no data available.
 
 ##### [1.1.0](https://github.com/BlueDot-global/bluedot-support/raw/IDRLv1.1.0/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/infectious-disease-risk-by-location.pbix)
 - Released June 24, 2022
@@ -50,7 +57,9 @@ _Screenshot 1: Location and timeframe search_
 
 ### Location Profile page
 
-This page shows an overview of all disease activity in the selected time frame and country location, the baseline epidemic preparation index (BEPI) developed by BlueDot, and the number of hospital beds per 10,000 in this location as listed by the World Health Organization (WHO). Furthermore, notable disease events in the location selected will be previewed here.  
+This page shows an overview of all disease activity in the selected time frame and country location, the baseline epidemic preparation index (BEPI) developed by BlueDot, and the number of hospital beds per 10,000 in this location as listed by the World Health Organization (WHO). Furthermore, notable disease events in the location selected will be previewed here. 
+
+The disease overview table sources column shows the number, and type of sources used to generate disease intelligence and case counts. 
 
 ![Location Profile Overview](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/Screenshots/id-risk-by-loc-2.png)
 
@@ -58,8 +67,7 @@ This page shows an overview of all disease activity in the selected time frame a
 
 _Screenshot 2: Location Profile_
 
-
-To see additional intelligence for a specific disease, select the disease from the **Disease Overview** table and click `View Disease Activity`. Alternatively, diseases can be selected by right clicking the disease, and selecting `Drill Through > Disease Activity`. 
+To see additional intelligence for a specific disease and the sources associated with the reports, select the disease from the **Disease Overview** table and click `View Disease Activity`. Alternatively, diseases can be selected by right clicking the disease, and selecting `Drill Through > Disease Activity`. 
 
 ### Disease Activity page
 
@@ -71,17 +79,25 @@ This section of the report displays additional intelligence for the selected dis
 
 _Screenshot 3: Disease activity_ 
  
-The Disease Profile section is located at the bottom of the Disease Activity page. This section includes information on disease severity, transmissibility, preventability, and modes of transmission. The information displayed in this area changes based on the user's selection of disease in the Location Search and Location Profile pages.   
+The Disease Profile section is located below the subnational map. This section includes information on disease severity, transmissibility, preventability, and modes of transmission. The information displayed in this area changes based on the user's selection of disease in the Location Search and Location Profile pages.   
+
+At the bottom of the page, the `Data Sources` table can be found. Here, sources for reported intelligence used during the selected time period are displayed.
+
+![DataSources](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/Screenshots/id-risk-by-loc-24.png)
+
+_Screenshot 4: Data Sources Table_ 
 
 ### New, Notable, and Unusual Disease Activity page
 
-This page displays recent BlueDot reports relevant to the selected location. There are three categories of reports shown: breaking news, situational updates, and new activity. The descriptions of topics covered by each of these report categories can be found in the [Data Dictionary and Methods page](#data-dictionary--methods-page).
+This page displays recent BlueDot new, notable and unusual activity updates relevant to the selected location. There are three categories of reports shown: breaking news, situational updates, and new activity. The descriptions of topics covered by each of these report categories can be found in the [Data Dictionary and Methods page](#data-dictionary--methods-page).
 
-The user can filter through BlueDot reports based on the diseases reported in the location, the type of article, and adjust the timeframe as needed. If no filters are specified, all reports will be shown. 
+The user can filter through BlueDot updates based on the diseases reported in the location, the type of article, and adjust the timeframe as needed. If no filters are specified, all reports will be shown. 
+
+Lastly, links to sources that informed details of the updates can be found beside the summary of the event. 
 
 ![Recent News and Notable Disease Events Page](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/Screenshots/id-risk-by-loc-6.png)
 
-_Screenshot 4: New, Notable and Unusual Disease Activity_
+_Screenshot 5: New, Notable and Unusual Disease Activity_
 
 ### Data Dictionary & Methods page
 
@@ -89,7 +105,7 @@ The Data Dictionary & Methods page can be found on the last tab of the template.
 
 ![Data Dictionary and Methods](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Infectious%20Disease%20Risk%20by%20Location/Screenshots/id-risk-by-loc-7.png)
 
-_Screenshot 5: Data Dictionary and Methods_
+_Screenshot 6: Data Dictionary and Methods_
 
 ## Access the template and connect to BlueDot's live intelligence
 
