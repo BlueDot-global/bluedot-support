@@ -2,9 +2,13 @@
 
 ## Download
 
-Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v1.2.0.pbix)
+Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v2.0.0.pbix)
 
 ## Versions
+
+##### [2.0.0](https://github.com/BlueDot-global/bluedot-support/raw/EVENTv2.0.0/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v2.0.0.pbix)
+- Released October 12, 2022
+- Updated Data Dictionary & Methods 
 
 ##### [1.2.0](https://github.com/BlueDot-global/bluedot-support/raw/EVENTv1.2.0/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v1.2.0.pbix)
 - Released October 11, 2022
