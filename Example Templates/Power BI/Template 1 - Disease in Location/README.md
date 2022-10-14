@@ -6,7 +6,7 @@ Download the latest version of the template [here](https://github.com/BlueDot-gl
 
 ## Versions
 
-##### [1.1.0](https://github.com/BlueDot-global/bluedot-support/raw/DISSPRv1.1.0/Example%20Templates/Power%20BI/Template%201%20-%20Disease%20in%20Location/template1-disease-in-location-v1.1.0.pbix)
+##### [1.1.0](https://github.com/BlueDot-global/bluedot-support/raw/DISLOCv1.1.0/Example%20Templates/Power%20BI/Template%201%20-%20Disease%20in%20Location/template1-disease-in-location-v1.1.0.pbix)
 - Released October 11, 2022
 - Template renamed to _Disease in Location_, adding sense and clarity to its purpose and utility
 - Page titles updated to improve readability
