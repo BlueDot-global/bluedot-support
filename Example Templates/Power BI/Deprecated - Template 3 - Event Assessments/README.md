@@ -1,12 +1,8 @@
-# BlueDot Example Template 3: Event Assessments
-
-## Download
-
-Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/under-construction-template3-event-assessments-v2.0.0.pbix)
+# BlueDot Example Template 3: Event Assessments (Deprecated)
 
 ## Versions
 
-##### [2.0.0](https://github.com/BlueDot-global/bluedot-support/raw/EVENTv2.0.0/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/under-construction-template3-event-assessments-v2.0.0.pbix)
+##### [2.0.0](https://github.com/BlueDot-global/bluedot-support/raw/EVENTv2.0.0/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/deprecated-template3-event-assessments-v2.0.0.pbix)
 - Released October 12, 2022
 - Updated Data Dictionary & Methods 
 
@@ -49,7 +45,7 @@ This page consists of 3 main filters:
 
 3. The user can search and select the desired location of which the reports were created for. This step is optional. If the user does not select a location, all reports reported globally in the time frame selected will be displayed.
 
-![Event Assessment Overview](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-8.png)
+![Event Assessment Overview](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-8.png)
 
 _Image 1: Timeframe and Location search and Disease Event Updates_
 
@@ -63,7 +59,7 @@ Furthermore, the user can filter through reports based on the type of report sho
 
 The Data Dictionary and Methods page can be found on the last tab of the template. Definitions for all terms and classifications of reports used in the template will be listed here. Additionally, methods for report discovery and classification will be found here. 
 
-![Data Dictionary and Methods](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-9.png)
+![Data Dictionary and Methods](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-9.png)
 
 _Image 2: Data Dictionary and Methods_
 
@@ -81,11 +77,11 @@ _Template 3: Event Assessments_ comes with sample data by default. Please, reach
 
 1. Select `Data Source settings` from the drop-down menu of the Data Icon.
 
-![Data Source Toolbar Item](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-1.png)
+![Data Source Toolbar Item](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-1.png)
 
 2. Select `Change Source...`.
 
-![Data Source Settings](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-2.jpg)
+![Data Source Settings](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-2.jpg)
 
 3. Enter in Server: `sqldb-bd-epi-intelligence.database.windows.net`.
 
@@ -93,15 +89,15 @@ _Template 3: Event Assessments_ comes with sample data by default. Please, reach
 
 5. Click `OK`.
 
-![SQL Server Database Settings](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-3.jpg)
+![SQL Server Database Settings](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-3.jpg)
 
 6. Next, click `Edit Permissions...`.
 
-![Data Source Settings](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-4.jpg)
+![Data Source Settings](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-4.jpg)
 
 7. Click `edit`.
 
-![Data Source Permissions](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-5.jpg)
+![Data Source Permissions](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-5.jpg)
 
 8. Ensure that `Database` is selected.
 
@@ -109,7 +105,7 @@ _Template 3: Event Assessments_ comes with sample data by default. Please, reach
 
 10. Click `Save`.
 
-![SQL Server Database Credentials](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-6.jpg)
+![SQL Server Database Credentials](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-6.jpg)
 
 11. Click `OK` and `Close`.
 
@@ -122,11 +118,11 @@ To use _Template 3: Event Assessments_ in Power BI Service, please follow the st
 
 2. Click on the three dots beside the corresponding dataset and click on `Settings`.
 
-![Dataset Settings](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-12.png)
+![Dataset Settings](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-12.png)
 
 3. Expand on `Parameters`.
 
-![Dataset Parameters](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-13.png)
+![Dataset Parameters](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-13.png)
 
 4. Enter in Database: `BluedotDashboardsData`.
 
@@ -136,11 +132,11 @@ To use _Template 3: Event Assessments_ in Power BI Service, please follow the st
 
 7. Expand on `Data source credentials`.
 
-![Data source credentials](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-14.png)
+![Data source credentials](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-14.png)
 
 8. Click on `Edit Credentials`.
 
-![Data source credentials](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-15.png)
+![Data source credentials](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-15.png)
 
 9. Input valid credentials under `User name` and `Password`.
 
@@ -148,7 +144,7 @@ To use _Template 3: Event Assessments_ in Power BI Service, please follow the st
 
 11. If desired, dataset can be automatically refreshed to always have the most up-to-date data. Expand on `Scheduled refresh`.
 
-![Data source credentials](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-16.png)
+![Data source credentials](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-16.png)
 
 12. Toggle `On`.
 
@@ -164,11 +160,11 @@ After downloading the updated component, it can be added to an existing template
 
 1. Under the **Visualizations** pane, select the three dots shown below.
 
-![Visualizations Pane](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-10.png)
+![Visualizations Pane](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-10.png)
 
 2. Select `Import visualizations from a file`
 
-![Build Visual Options](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Under%20Construction%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-11.png)
+![Build Visual Options](https://github.com/BlueDot-global/bluedot-support/blob/main/Example%20Templates/Power%20BI/Deprecated%20-%20Template%203%20-%20Event%20Assessments/Screenshots/event-assessments-11.png)
 
 3. Select the new component from your file finder.
 4. A new icon should appear. Upon clicking the new icon, the visual will appear in the report. Fill the fields as necessary. 
