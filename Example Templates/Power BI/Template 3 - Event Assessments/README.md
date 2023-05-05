@@ -2,9 +2,13 @@
 
 ## Download
 
-Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v3.0.0.pbix)
+Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v3.0.1.pbix)
 
 ## Versions
+
+##### [3.0.1](https://github.com/BlueDot-global/bluedot-support/raw/EVENTv3.0.1/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v3.0.1.pbix)
+- Released May 05, 2023
+- Fixed usability issue with event to assessment navigation
 
 ##### [3.0.0](https://github.com/BlueDot-global/bluedot-support/raw/EVENTv3.0.0/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v3.0.0.pbix)
 - Released April 26, 2023
