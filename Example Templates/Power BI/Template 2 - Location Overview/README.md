@@ -2,9 +2,13 @@
 
 ## Download
 
-Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Template%202%20-%20Location%20Overview/template2-location-overview-v2.1.0.pbix)
+Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Template%202%20-%20Location%20Overview/template2-location-overview-v2.1.1.pbix)
 
 ## Versions
+
+##### [2.1.1](https://github.com/BlueDot-global/bluedot-support/raw/LOCOVERv2.1.1/Example%20Templates/Power%20BI/Template%202%20-%20Location%20Overview/template2-location-overview-v2.1.1.pbix)
+- Released August 09, 2023
+- Fixed missing case counts when subnational data is not available
 
 ##### [2.1.0](https://github.com/BlueDot-global/bluedot-support/raw/LOCOVERv2.1.0/Example%20Templates/Power%20BI/Template%202%20-%20Location%20Overview/template2-location-overview-v2.1.0.pbix)
 - Released October 11, 2022
