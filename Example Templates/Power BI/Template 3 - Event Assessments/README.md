@@ -2,9 +2,13 @@
 
 ## Download
 
-Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v3.1.0.pbix)
+Download the latest version of the template [here](https://github.com/BlueDot-global/bluedot-support/raw/main/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v3.1.1.pbix)
 
 ## Versions
+
+##### [3.1.1](https://github.com/BlueDot-global/bluedot-support/raw/EVENTv3.1.1/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v3.1.1.pbix)
+- Released January 24, 2024
+- Updated template to replace Potential for Concern events with Watchlist Alert events
 
 ##### [3.1.0](https://github.com/BlueDot-global/bluedot-support/raw/EVENTv3.1.0/Example%20Templates/Power%20BI/Template%203%20-%20Event%20Assessments/template3-event-assessments-v3.1.0.pbix)
 - Released October 10, 2023
